@@ -62,7 +62,7 @@ const ProjectCard = ({
         ) : (
           <p className="text-gray-300">Solo</p>
         )}
-        <div className="h-36 p-4 bg-gray-500 rounded-xl my-2">
+        <div className="h-36 p-4 bg-gray-500 rounded-xl my-2 overflow-scroll">
           <p>{description}</p>
         </div>
         <div className="flex gap-2 items-center justify-start text-xl my-4">
