@@ -9,9 +9,8 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 const Navbar = () => {
   const router = useRouter();
   const currentPath = router.pathname;
-  console.log(currentPath);
   return (
-    <div className="fixed top-4 md:top-10 left-0 right-0 w-96 mx-auto text-md md:text-lg flex backdrop-blur-md bg-white/70 shadow-2xl shadow-gray-700/20 rounded-full justify-evenly items-center gap-4 p-1 md:p-3">
+    <div className="fixed top-0 sm:top-4 md:top-10 left-0 right-0 w-96 mx-auto text-md md:text-lg flex backdrop-blur-md bg-white/70 shadow-2xl shadow-gray-700/20 rounded-xl sm:rounded-full justify-evenly items-center gap-4 p-1 md:p-3">
       <Link href={`/`} className={`text-lg`}>
         <span>
           <BsFillGrid1X2Fill />

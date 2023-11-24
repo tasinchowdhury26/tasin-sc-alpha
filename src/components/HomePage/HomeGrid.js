@@ -10,8 +10,8 @@ const HomeGrid = () => {
     <div>
       <div className="grid grid-cols-4 gap-7 h-screen">
         {/* Title */}
-        <div className="rounded-2xl shadow-2xl shadow-gray-700/20 p-44 md:p-6 text-center col-span-4 sm:col-span-1 row-span-2 bg-[url('https://i.ibb.co/mcZ4ggV/IMG-20220710-WA0003-Cropped.jpg')] bg-cover">
-          <p className="text-white text-xl md:text-4xl font-semibold">
+        <div className="rounded-2xl shadow-2xl shadow-gray-700/20 p-6 text-center flex justify-center items-end md:items-start col-span-4 sm:col-span-1 row-span-2 bg-[url('https://i.ibb.co/mcZ4ggV/IMG-20220710-WA0003-Cropped.jpg')] bg-cover">
+          <p className="text-white text-lg md:text-4xl font-bold">
             Hello, I{`'m`} Tasin
           </p>
         </div>
@@ -19,7 +19,7 @@ const HomeGrid = () => {
         {/* Blogs */}
         <Link
           href={`/blogs`}
-          className="bg-gray-200 text-gray-200 leading-relaxed flex items-end rounded-2xl shadow-2xl shadow-gray-700/20 pt-16 pb-4 px-4 md:p-6 col-span-4 sm:col-span-2 row-span-1 bg-[url('https://images.unsplash.com/photo-1584204559709-ca7d413229eb?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover"
+          className="bg-gray-200 text-gray-200 leading-relaxed flex items-end rounded-2xl shadow-2xl shadow-gray-700/20 pt-16 pb-4 px-4 md:p-6 col-span-4 sm:col-span-2 row-span-1 bg-[url('https://images.unsplash.com/photo-1517200578024-62d131797ec8?q=80&w=1714&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover"
         >
           <div>
             <p className="text-4xl font-bold">Blogs</p>
