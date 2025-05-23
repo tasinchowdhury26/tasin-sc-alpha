@@ -10,7 +10,7 @@ const HomeGrid = () => {
     <div>
       <div className="grid grid-cols-4 gap-7 h-screen">
         {/* Title */}
-        <div className="rounded-2xl shadow-2xl shadow-gray-700/20 p-6 text-center flex justify-center items-end md:items-start col-span-4 sm:col-span-1 row-span-2 bg-[url('https://i.ibb.co/mcZ4ggV/IMG-20220710-WA0003-Cropped.jpg')] bg-cover">
+        <div className="rounded-2xl shadow-2xl shadow-gray-700/20 p-6 text-center flex justify-center items-end md:items-start col-span-4 sm:col-span-1 row-span-2 bg-[url('https://i.ibb.co/JRxT4TJC/20250124-172457.jpg')] bg-cover">
           <p className="text-white text-lg md:text-4xl font-bold">
             Hello, I{`'m`} Tasin
           </p>
