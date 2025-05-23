@@ -3,8 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { BiLogoGoogle } from "react-icons/bi";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
-import { FaLinkedin, FaSkype } from "react-icons/fa";
-import { FaMicrosoft } from "react-icons/fa6";
+import { FaLinkedin, FaMicrosoft } from "react-icons/fa";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
 const Navbar = () => {

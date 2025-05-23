@@ -1,8 +1,7 @@
 import { copyText } from "@/utils/copyText";
 import Link from "next/link";
 import { BiLogoGoogle } from "react-icons/bi";
-import { FaLinkedin, FaSkype } from "react-icons/fa";
-import { FaMicrosoft } from "react-icons/fa6";
+import { FaLinkedin, FaMicrosoft } from "react-icons/fa";
 
 const Footer = () => {
   return (

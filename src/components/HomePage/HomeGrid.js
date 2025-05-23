@@ -1,8 +1,13 @@
 import { copyText } from "@/utils/copyText";
 import Link from "next/link";
 import { BiLogoGoogle } from "react-icons/bi";
-import { FaHackerrank, FaLinkedin, FaMedium } from "react-icons/fa";
-import { FaGithub, FaMicrosoft, FaSkype } from "react-icons/fa6";
+import {
+  FaHackerrank,
+  FaLinkedin,
+  FaMedium,
+  FaMicrosoft,
+} from "react-icons/fa";
+import { FaGithub, FaSkype } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 
 const HomeGrid = () => {
