@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
           <FaSkype
             className="text-3xl text-blue-700 cursor-pointer"
-            onClick={() => copyText("live:.cid.8c219c85bbf4aa16", "Skype Id")}
+            onClick={() => copyText("live:.cid.8c219c85bbf4aa16", "Teams Id")}
           />
           <BiLogoGoogle
             className="text-3xl text-red-600 cursor-pointer"
