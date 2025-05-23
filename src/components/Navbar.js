@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { BiLogoGoogle } from "react-icons/bi";
 import { BsFillGrid1X2Fill } from "react-icons/bs";
 import { FaLinkedin, FaSkype } from "react-icons/fa";
+import { FaMicrosoft } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
 const Navbar = () => {
@@ -63,7 +64,7 @@ const Navbar = () => {
                 >
                   <FaLinkedin className="text-3xl text-cyan-900 cursor-pointer" />
                 </Link>
-                <FaSkype
+                <FaMicrosoft
                   className="text-3xl text-blue-700 cursor-pointer"
                   onClick={() =>
                     copyText("live:.cid.8c219c85bbf4aa16", "Teams ID")
