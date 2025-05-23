@@ -2,6 +2,7 @@ import { copyText } from "@/utils/copyText";
 import Link from "next/link";
 import { BiLogoGoogle } from "react-icons/bi";
 import { FaLinkedin, FaSkype } from "react-icons/fa";
+import { FaMicrosoft } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
           >
             <FaLinkedin className="text-3xl text-cyan-900 cursor-pointer" />
           </Link>
-          <FaSkype
+          <FaMicrosoft
             className="text-3xl text-blue-700 cursor-pointer"
             onClick={() => copyText("live:.cid.8c219c85bbf4aa16", "Teams Id")}
           />
