@@ -2,7 +2,7 @@ import { copyText } from "@/utils/copyText";
 import Link from "next/link";
 import { BiLogoGoogle } from "react-icons/bi";
 import { FaHackerrank, FaLinkedin, FaMedium } from "react-icons/fa";
-import { FaGithub, FaSkype } from "react-icons/fa6";
+import { FaGithub, FaMicrosoft, FaSkype } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 
 const HomeGrid = () => {
@@ -88,7 +88,7 @@ const HomeGrid = () => {
                 >
                   <FaLinkedin className="text-3xl cursor-pointer" />
                 </Link>
-                <FaSkype
+                <FaMicrosoft
                   className="text-3xl cursor-pointer"
                   onClick={() =>
                     copyText("live:.cid.8c219c85bbf4aa16", "Skype Id")
